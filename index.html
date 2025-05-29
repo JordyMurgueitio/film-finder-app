@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film Finder</title>
+        <!-- Link to fontawesome -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap" rel="stylesheet">
+        <!-- Link to stylesheet -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Script for fontawesome -->
+        <script src="https://kit.fontawesome.com/25ee437153.js" crossorigin="anonymous"></script>
+        <!-- Link to javascript -->
+        <script defer src="./helpers.js"></script>
+        <script defer src="./script.js"></script>
+    </head>
+    <body>
+        <header class="app-header">
+            <h1 id="appTitle">🍿Film Finder🍿</h1>
+        </header>
+        <form id="genreForm">
+            <label>Choose a genre:</label>
+            <select name="genres" id="genres"></select>
+        </form>
+        <div class="buttons-container">
+            <button id="playBtn">Find Movie</button>
+            <button id="showLikedBtn">Show Liked Movies</button>
+        </div>
+        
+        <div id="movieInfo">
+            <div id="moviePoster"></div>
+            <div id="movieText"></div>
+        </div>
+
+        <div id="likeOrDislikeBtns" hidden>
+            <button id="likeBtn"><i class="fa-regular fa-thumbs-up"></i></button>
+            <button id="dislikeBtn"><i class="fa-regular fa-thumbs-down"></i></button>
+        </div>
+
+        <section class="liked-movies-section" id="likedMoviesSection" hidden>
+            <h2 class="liked-movies-title">🎥 Liked Movies</h2>
+            <div id="likedMoviesContainer"></div>
+        </section>
+    </body>
+</html>

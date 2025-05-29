@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #093a52;
+    background-image: url(./film-finder.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.app-header {
+    padding: 40px 0 10px 0;
+    margin-bottom: 10px;
+}
+#appTitle {
+    text-align: center;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 4rem;
+    color: #FEFBEA;
+}
+#genreForm{
+    text-align: center;
+    width: 80%;
+    margin: 0px auto 20px auto;
+    font-family: 'Fredoka One', sans-serif;
+    padding: 50px 10px;
+}
+#genreForm label {
+    font-size: 2.5rem;
+    color: #e3dfd6;
+    display: block;
+    margin-bottom: 30px;
+}
+#genres {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: #948a8a 2px solid;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+#playBtn, #showLikedBtn {
+    background-color: #000000;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color: #ac5656;
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+#playBtn:hover, #showLikedBtn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#movieInfo {
+    width:  80%;
+    background-color: #000000b3;
+    margin:  32px auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+#moviePoster {
+    width:  80%;
+    max-width: 300px;
+    min-width: 250px;
+}
+img#moviePoster {
+    width:  100%;
+    height:  auto;
+}
+#movieText {
+    width:  80%;
+    font-family: 'Questrial';
+    color: #FEFBEA;
+}
+#movieTitle {
+    font-size: 2.5rem;
+    margin-bottom: 30px;;
+}
+#movieOverview, #movieReleaseDate, #movieCast, #movieRating {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#likeOrDislikeBtns {
+    text-align: center;
+    margin: 0px auto;  
+}
+
+#likeBtn, #dislikeBtn {
+    padding: 15px 25px;
+    font-size: 2rem;
+    border-radius: 12px;
+    border-style: none;
+    cursor:  pointer;
+    margin: 20px 10px;
+}
+
+#likeBtn {
+    background-color: #000000;
+    border: 1px solid white;
+    color: darkgreen;
+}
+#likeBtn:hover {
+    background-color: #249e57;
+}
+#dislikeBtn {
+    background-color: #000000;
+    border: 1px solid white;
+    color: #910000;
+}
+#dislikeBtn:hover {
+    background-color:#ac5656;
+}
+
+/* desktop */
+@media screen and (min-width: 900px) {
+    #genreForm {
+        width: 50%;
+    }
+    #genreForm label {
+        font-size: 2.7rem;
+        margin-bottom: 30px;
+    }
+    #genres {
+        font-size: 1.4rem;
+    }
+    #movieInfo {
+        width: 70%;
+        gap: 40px;
+        margin: 40px auto 10px auto;
+    }
+    #moviePoster {
+        width: 30%;
+    }
+    #movieText {
+        width: 55%;
+    }
+}
+
+
+/* Liked movies section mobile */
+#likedMoviesSection {
+    background-color: #249e57;
+    background-image: url(./film-finder.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    padding: 50px 0;
+}
+.liked-movies-title {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+#likedMoviesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.liked-movie-card {
+    background-color: #3e3c3c90;
+    padding: 10px;
+    border-radius: 8px;
+    flex: 1 1 200px;         /* shrink/grow with a base width */
+    max-width: 200px;
+}
+.liked-movie-poster {
+    width: 100%;
+    border-radius: 6px;
+}
+.liked-movie-title {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.liked-movie-rating {
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+.remove-btn {
+    background-color: #000000;
+    border: 1px solid white;
+    font-size: 1rem;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.remove-btn:hover {
+    background-color: #910000;
+}
