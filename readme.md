@@ -30,3 +30,20 @@ Check out the live version of the app here:
 - CSS
 - JavaScript (ES6)
 - [The Movie DB API](https://www.themoviedb.org/documentation/api)
+
+## 📦 How to Run It Locally
+
+1. Clone this repo:
+
+   ```bash
+   git clone https://github.com/jordymurgueitio/film-finder-app.git
+   cd film-finder-app
+
+   ```
+
+2. Open index.html in your browser (or use Live Server)
+3. ⚠️ Make sure to insert your own TMDB API key in the JS file:
+
+```javascript
+const apiKey = "YOUR_API_KEY_HERE";
+```
