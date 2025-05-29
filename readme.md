@@ -19,9 +19,9 @@ A simple and fun web app that allows users to discover and like random movies by
 
 ## 📸 Screenshots
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
-  <img src="./assets/hero.png" alt="Home view" style="width: 45%; width: 300px;">
-  <img src="./assets/likedmovies.png" alt="Liked movies section" style="width: 45%; width: 300px;">
+<div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-evenly;">
+  <img src="./assets/home.png" alt="Home view" style="width: 45%; width: 350px;">
+  <img src="./assets/liked.png" alt="Liked movies section" style="width: 45%; width: 350px;">
 </div>
 
 ## 📦 How to Run It Locally
