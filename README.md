@@ -4,9 +4,9 @@ A simple and fun web app that allows users to discover and like random movies by
 
 ## 🚀 Live Demo
 
-Check out the live version of the app here:  
-👉 [Film Finder App](https://jordymurgueitio.github.io/film-finder-app/)
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://jordymurgueitio.github.io/film-finder-app/)
+Check out the live version of the app here:
+
+👉 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://jordymurgueitio.github.io/film-finder-app/)
 
 ## 📸 Screenshots
 
@@ -45,5 +45,5 @@ Check out the live version of the app here:
 3. ⚠️ Make sure to insert your own TMDB API key in the JS file:
 
 ```javascript
-const apiKey = "YOUR_API_KEY_HERE";
+const tmdbKey = "YOUR_API_KEY_HERE";
 ```
