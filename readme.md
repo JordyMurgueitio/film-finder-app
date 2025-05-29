@@ -19,7 +19,8 @@ A simple and fun web app that allows users to discover and like random movies by
 
 ## 📸 Screenshots
 
-_(Add screenshots of your UI here later if you want)_
+<img src="./assets/hero.png" width="500" alt="Home view">
+<img src="./assets/likedmovies.png" width="500" alt="Liked movies section">
 
 ## 📦 How to Run It Locally
 

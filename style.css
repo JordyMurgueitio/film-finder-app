@@ -6,7 +6,7 @@
 
 body {
     background-color: #093a52;
-    background-image: url(./film-finder.jpg);
+    background-image: url(./assets/film-finder.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -161,7 +161,7 @@ img#moviePoster {
 /* Liked movies section mobile */
 #likedMoviesSection {
     background-color: #249e57;
-    background-image: url(./film-finder.jpg);
+    background-image: url(./assets/film-finder.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
