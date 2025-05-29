@@ -2,15 +2,11 @@
 
 A simple and fun web app that allows users to discover and like random movies by genre using The Movie DB API.
 
-<h2>🚀 Live Demo</h2>
+## 🚀 Live Demo
 
-<p>Click below to try the live version of the app:</p>
+Check out the live version of the app:
 
-<p style="margin-top: 10px;">
-  <a href="https://jordymurgueitio.github.io/film-finder-app/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🌐 Try%20the%20App-blue?style=for-the-badge" alt="Live Demo">
-  </a>
-</p>
+[![🌐 Try the App](https://img.shields.io/badge/🌐%20Try%20the%20App-blue?style=for-the-badge)](https://jordymurgueitio.github.io/film-finder-app/)
 
 ## 📸 Screenshots
 
