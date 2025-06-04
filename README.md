@@ -1,5 +1,9 @@
 # 🎬 Movie Finder App
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+
 A simple and fun web app that allows users to discover and like random movies by genre using The Movie DB API.
 
 ## 🚀 Live Demo
@@ -11,8 +15,8 @@ Check out the live version of the app:
 ## 📸 Screenshots
 
 <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-evenly;">
-  <img src="./assets/home.png" alt="Home view" style="width: 45%; width: 350px;">
-  <img src="./assets/liked.png" alt="Liked movies section" style="width: 45%; width: 350px;">
+  <img src="./assets/home.png" alt="Home view" style="width: 45%;">
+  <img src="./assets/liked.png" alt="Liked movies section" style="width: 45%;">
 </div>
 
 ## ✨ Features
